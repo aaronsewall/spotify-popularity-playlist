@@ -1,0 +1,4 @@
+fuzzywuzzy==0.18.0
+mypy==0.790
+python-Levenshtein==0.12.0
+spotipy==2.16.1
