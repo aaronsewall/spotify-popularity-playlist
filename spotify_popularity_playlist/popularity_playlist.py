@@ -55,7 +55,7 @@ def artists_search(artist_name: str) -> List[Artist]:
     :return: List[Artist]
     """
     artists: List[Artist] = DEFAULT_SCOPE.search(
-        q=f"{ARTIST}:{artist_name}", type=ARTIST
+        q=f"{ARTIST}:{artist_name}", type=ARTIST, limit=15
     )[ARTISTS]["items"]
     return artists
 
